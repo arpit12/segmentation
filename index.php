@@ -141,7 +141,7 @@ if (!empty($_POST["input"])) {
         else
         $range = $range ;
 // results add operation has having some problem while joining operation..
-//$data=$collection->find(array('$and' => array(array("act" => $action),array ($filter => $string1), array('$and'  => array(array( '$gt' => $value )  ) )));
+//$data=$collection->find(array('$and' => array(array("act" => $action),array ($filter => $string1), array('$and'  => array(array( '$range' => $value )  ) )));
 
 }
 
